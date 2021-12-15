@@ -1,8 +1,8 @@
 # bitter
 Perform bit level I/O from any `io.Reader` or `io.Writer`.
 
-Usage
-=====
+Example
+-------
 
 Reading
 ```go
