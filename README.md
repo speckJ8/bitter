@@ -15,7 +15,7 @@ fmt.Println("%b\n", bits) // 1000110101
 Writing
 ```go
 var output bytes.Buffer
-var writer = bitter.NewBitReader(&output)
+var writer = bitter.NewBitWriter(&output)
 writer.Write(0b1, 1)
 writer.Write(0b10, 2)
 writer.Write(0b10, 2)
